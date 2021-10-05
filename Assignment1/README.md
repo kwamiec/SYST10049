@@ -3,8 +3,8 @@
 Sept 2020<br />
 
 ### **Languages:**<br />
-  &ensp;‣ HTML<br />
-  &ensp;‣ CSS<br /><br />
+  &ensp;‣ HTML5<br />
+  &ensp;‣ CSS3<br /><br />
   
 ### **Learning Objectives:**<br />
   &ensp;‣ To create a properly structured webpage.<br />
