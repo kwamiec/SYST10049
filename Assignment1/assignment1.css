@@ -26,7 +26,7 @@ table, th, td {
                border: 2px solid black;
                width: 50%;}
 
-th {
+th  {
     background-color: rgb(189, 155, 183);}
 
 td.column1 {
