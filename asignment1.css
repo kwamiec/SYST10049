@@ -1,0 +1,31 @@
+h1 {text-align: center;
+    font-size: 150%;
+    border: 5px solid rgb(195, 135, 222);
+    border-radius: 8px;}
+
+p.p1 {font-size: 125%;
+   text-align: right;
+   text-shadow: 1px 1px 10px rgb(195, 135, 222);}
+
+p.videostyle {text-align: right;}
+
+hr.line1 {border-top: 7px solid rgb(195, 135, 222);}   
+
+hr.line2 {border-top: 7px solid rgb(195, 135, 222);}
+
+img {width: 400px;
+     box-shadow: 1px 1px 10px rgb(195, 135, 222);}
+
+table, th, td {border: 2px solid black;
+               width: 50%;}
+th{background-color: rgb(189, 155, 183);}
+td.column1 {background-color: rgb(245, 160, 238); 
+            padding-left: 5px;
+            padding-right: 5px;}
+td.column2 {background-color: rgb(252, 199, 239);
+            text-align: right;
+            padding-left: 5px;
+            padding-right: 5px;}
+
+h3, ul {margin-left: 125px;}
+
