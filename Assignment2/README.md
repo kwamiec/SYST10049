@@ -7,7 +7,7 @@ Nov 2020<br />
   &ensp;‣ CSS3<br /><br />
   
 ### **Learning Objectives:**<br />
-  &ensp;‣ To create a properly structured webpage that contains audio and properly utilizes the positioning property.<br /><br/>
+  &ensp;‣ To create a properly structured webpage that contains audio, properly utilizes the positioning property, and contains website security.<br /><br/>
   &ensp;‣ CSS techniques:
   - positioning: static, relative. fixed, absolute, and sticky
   - z-index
