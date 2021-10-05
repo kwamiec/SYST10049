@@ -1,0 +1,70 @@
+img.pineapple {box-shadow:10px 10px 40px yellow;
+               border: 8px solid darkblue;
+               border-radius: 20px;
+               padding:16px ;
+               background-color: rgb(255, 255, 137);
+               width: 275px ;
+               position: relative;
+               z-index: 1;}
+
+div#me {border:8px solid rgb(255, 36, 36);
+     border-radius: 20px;
+     padding: 100px;
+     background-color:rgb(165, 245, 234);
+     width:250px;
+     font-size: 30px;
+     text-shadow:3px 3px 10px rgb(255, 102, 0);
+     color: darkblue;
+     z-index: -1px;
+     position: absolute;
+     left: 275px;
+     top: 300px;}    
+     
+ul {border:8px solid greenyellow;
+        border-radius: 20px;
+        border-bottom-right-radius: 150px;
+        border-top-right-radius: 150px;
+        padding-left: 30px;
+        padding: 50px;
+        top: 20px;
+        width:270px;
+        z-index: 1px;
+        position: relative;
+        background-color: rgb(173, 231, 173);
+        font-size: 20px;}
+
+li {margin-bottom: 8px;}
+ 
+div#table {border: 8px solid yellow;
+           border-radius: 20px;
+            padding: 20px;
+            width: 50%;
+            right: 10px;
+            top: 10px;
+            position: absolute;
+            z-index: 1px;
+            background-color: rgb(231, 231, 253);}    
+            
+div#table table, th, td {border: 3px solid darkblue;
+                 border-collapse: collapse;
+                 background-color: rgb(255, 210, 227);
+                 color: darkblue;}     
+  
+                 
+td.column3 {text-align: right;}
+td.column2 {text-align: center;}
+
+td.tag{font-size: x-large;}
+td.ex{font-size: x-large;
+      text-align: center;}
+td.does{font-size: x-large;
+        text-align: right;}
+
+th{font-size: x-large;}
+
+td {width: 33%;}
+
+div#audio {position: fixed;
+       right: 10px;
+       bottom: 5px;}
+      
