@@ -1,7 +1,6 @@
 # SYST10049 Assignment 1
 
 Sept 2020<br />
-Learning the Fundamentals of Web Programming
 
 ### **Languages:**<br />
   &ensp;‣ HTML<br />
