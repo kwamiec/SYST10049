@@ -7,9 +7,16 @@ Sept 2020<br />
   &ensp;‣ CSS3<br /><br />
   
 ### **Learning Objectives:**<br />
-  &ensp;‣ To create a properly structured webpage.<br />
-  &ensp;‣ Style a webpage using Cascading Style Sheets (CSS) techniques.<br />
-  &ensp;‣ Create a webpage that contains:
+  &ensp;‣ To create a properly structured webpage.<br /><br/>
+  &ensp;‣ Style a webpage using Cascading Style Sheets (CSS) techniques:
+  - align text
+   - add borders and change border-radius
+   - add shadows to images and text
+   - format table columns and rows
+   - use padding 
+   - change background colors<br />
+
+‣ Create a webpage that contains:
 - a table
 - an image
 - a video
