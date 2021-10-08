@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!-- Name: Christina Kwamie
+     Campus: Davis -->
+
+<html>
+<head>
+
+<title>Christina Kwamie- Assignment 3</title>
+
+<link rel="stylesheet" href="CSS/assignment3.css">
+
+<script src="JavaScript/assignment3.js"></script>
+
+</head>
+<body>
+     <div class="grid-container">
+          <div class="name"><h3>Assignment 3/ Christina Kwamie</h3> </div>
+          <div class="info">
+               <form method = "get" class="p-form">
+                    <fieldset>
+                      <legend>Personal Information</legend>
+                      <ul class = "p-info", style="list-style-type:none;">
+					<li>
+						<label for ="lname">Last Name:</label>
+						<input type = "text" name="lname" id ="lname" value ="Kwamie" class ="text-input" required>
+                         </li>
+                         <li>
+						<label for ="fname"> First Name:</label>
+						<input type = "text" name="fname" id ="fname" value ="Christina" class ="text-input" required>
+                         </li>
+                         <li>
+						<label for ="studentnum"> Student Number:</label>
+						<input type = "text" name="studentnum" id ="studentnum" value ="" class ="text-input">
+					</li>
+					<li>
+						<label for ="email">Sheridan Email:</label>
+						<input type="email" name="email" id="email" value ="" class ="text-input">
+					</li>
+                    </fieldset>
+                    </div>
+                    <div class="exp">               
+                    <fieldset>
+                         <legend>Sheridan Experience</legend>
+                          <ul class = "s-exp", style="list-style-type:none;">
+                              <li>
+                                   <label for ="doe">Date of Enterance:</label>
+                                   <input type = "date" name="doe" id ="doe">
+                              </li>
+                              <li>
+                                   <label for ="ps-exp"> Post Secondary Experience:</label>
+                                   <input type = "text" name="ps-exp" id ="ps-exp"  value= 0 class ="text-input">
+                              </li>
+                              <li>
+                                   <label for ="campus"> Campus:</label>
+                                   <input type = "radio" name="campus" id ="davis" value="Davis" checked= "checked">
+                                   <label for="davis">Davis</label>
+                                   <input type = "radio" name="campus" id ="traf" value="Trafalgar">
+                                   <label for="traf">Trafalgar</label>
+                                   <input type = "radio" name="campus" id ="hmc" value="HMC">
+                                   <label for="hmc">HMC</label>
+                              </li>
+                    </fieldset>
+          </div>  
+                    <div class="money">
+                         <fieldset>
+                              <legend>Financial Data</legend>
+                               <ul class = "fd", style="list-style-type:none;">
+                                   <li>
+                                        <label for ="mrec">Money Recieved:</label>
+                                        <input type="number" min="0.00" step="100.50" name="mrec" id ="mrec" class ="text-input">
+                                   </li>
+                                   <li>
+                                        <label for ="m-source"> Money Source:</label>
+                                        <input type = "checkbox" name="osap" id ="osap" value="OSAP">
+                                        <label for="osap">OSAP</label>
+                                        <input type = "checkbox" name="resp" id ="resp" value="RESP">
+                                        <label for="resp">RESP</label>
+                                        <input type = "checkbox" name="bursary" id ="bursary" value="Bursary">
+                                        <label for="bursary">Bursary</label>
+                                        <input type = "checkbox" name="other" id ="other" value="Other">
+                                        <label for="other">Other</label>
+                                   </li>
+                              </ul>
+                         </fieldset>
+                    </div>
+                    <div class="comment">Additional Information:<br>
+                         <textarea rows="10" cols="80"></textarea>
+                    </div>
+                    <div class="s-form">
+                         <input type="reset" value="Reset">
+                         <input type="submit" id= "submit" value="Submit" onclick="myFunction()">
+                    </div>
+          </form>
+     </div>
+
+</body>    
+</html> 
