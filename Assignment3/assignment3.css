@@ -1,0 +1,43 @@
+<!-- Name: Christina Kwamie
+     Campus: Davis -->
+
+     .name { grid-area: name;}
+     .info { grid-area: info;}
+     .exp { grid-area: exp; }
+     .money { grid-area: money; }
+     .comment { grid-area: comment; 
+                margin-top: 5px;}
+     .s-form { grid-area: submit; 
+                text-align: center;
+                margin-top: 5px;}
+
+     .grid-container {
+       display: grid;
+       grid-template-areas:
+         'name name name name name name'
+         'info info exp exp exp exp'
+         'info info comment comment comment comment'
+         'money money comment comment comment comment'
+         'submit submit submit submit submit submit ';
+       grid-gap: 0px;
+       background-color:rgb(138, 138, 138);
+       padding: 0px;
+     }
+     
+     .grid-container > div {
+       background-color: rgb(138, 138, 138);
+       padding: 5px;
+     }     
+
+label {width: 100px;
+       display: inline-block;}
+
+input[type=text] {
+        width: 200px;
+     }
+input[type=email] {
+        width: 200px;
+     }
+
+
+     
